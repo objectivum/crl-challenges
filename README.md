@@ -1,6 +1,6 @@
-# [The Pholio](https://thepholio.org/), by [Objectivum](https://objectivum.eu/)
+# [Conquering Responsive Layouts](https://courses.kevinpowell.co/courses/conquering-responsive-layouts), followed by [Objectivum](https://objectivum.eu/)
 
-Re-imagining and improving [thepholio.org](https://thepholio.org/).
+Challenges and scratchpads from following [Conquering Responsive Layouts](https://courses.kevinpowell.co/courses/conquering-responsive-layouts) by [Kevin Powell](https://www.kevinpowell.co/).
 
 ## Table of Contents
 
