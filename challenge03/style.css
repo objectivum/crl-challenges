@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+/* https://9elements.com/css-rule-order/
+   01. Generated content              (content)
+   02. Position and layout            (position, z-index, top, bottom, left, right, Flexbox properties, float, clear)
+   03. Display and visibility         (display, opacity, transform)
+   04. Clipping                       (overflow, clip)
+   05. Animation                      (animation, transition)
+   06. Box model (from outside in)    (margin, box-shadow, border, border-radius, box-sizing, width, height, padding)
+   07. Background                     (background, cursor)
+   08. Typography                     (color, font-family, font-size, font-weight, font-style,
+                                       line-height, text-align, text-transform, word-spacing)
+   09. Pseudo-classes pseudo-elements (:hover, :focus, :active, :before, :after, :first-child, :last-child) */
+
+/* "Apply a natural box layout model to all elements, but allowing components to change."
+   (Paul Irish, https://www.paulirish.com/2012/box-sizing-border-box-ftw/) */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Challenge #3 */
+
+.hero {
+  padding: 5em;
+  background: #23424a;
+  color: white;
+  font-size: 1rem;
+}
+
+.hero h1 {
+  margin-top: 0;
+  font-size: 2.5rem;
+}
+
+.hero-content {
+  width: 60%;
+  max-width: 800px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 2.5em;
+  padding: 1rem 2.5em;
+  border-radius: 25px;
+  background: #38cfd9;
+  color: #23424a;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #136c72;
+}
